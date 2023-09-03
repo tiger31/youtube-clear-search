@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         youtube-clear-search
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  Clear youtube serach
 // @author       github.com/tiger31
 // @match        https://www.youtube.com/*
@@ -11,8 +11,9 @@
 
 const targetSelectors = [
     'ytd-reel-shelf-renderer', //shorts
-    'ytd-shelf-renderer', // suggestions
-    'ytd-horizontal-card-list-renderer' //another suggestions?
+    'ytd-shelf-renderer', //suggestions
+    'ytd-horizontal-card-list-renderer', //another suggestions?,
+    'ytd-rich-section-renderer', //shorts in subscriptions
 ];
 
 (function() {
