@@ -2,7 +2,6 @@ www.youtube.com###clarify-box
 www.youtube.com##.ytd-rich-item-renderer.style-scope > .ytd-feed-nudge-renderer.style-scope
 www.youtube.com###attached-survey
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope
-www.youtube.com##ytd-guide-section-renderer:nth-of-type(1) ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
 www.youtube.com##.ytd-feed-filter-chip-bar-renderer.style-scope
@@ -16,11 +15,17 @@ www.youtube.com###expandable-metadata
 www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer > .ytd-menu-renderer.style-scope.ytSpecButtonViewModelHost > .yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next > .yt-spec-touch-feedback-shape--touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
 www.youtube.com###flexible-item-buttons > :not(:nth-child(2))
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
-www.youtube.com##:xpath('//ytd-rich-item-renderer[not(.//*[@class="yt-lockup-metadata-view-model__avatar"])]')
 www.youtube.com###frosted-glass
+# playists and wathed videos in feed
+www.youtube.com##:xpath('//ytd-rich-grid-renderer//ytd-rich-item-renderer[not(.//*[@class="yt-lockup-metadata-view-model__avatar"])]')
+www.youtube.com##:xpath('//ytd-rich-grid-renderer//ytd-rich-item-renderer[.//yt-thumbnail-overlay-progress-bar-view-model]')
 # shorts
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##ytd-rich-section-renderer
+www.youtube.com##ytd-guide-section-renderer:nth-of-type(1) ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope:nth-of-type(2)
 # suggestions
 www.youtube.com##ytd-shelf-renderer 
 www.youtube.com##ytd-horizontal-card-list-renderer
+# ai
+www.youtube.com###video-summary
+www.youtube.com##.ytVideoDescriptionYouchatSectionViewModelHost
