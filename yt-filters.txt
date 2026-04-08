@@ -17,8 +17,8 @@ www.youtube.com###flexible-item-buttons > :not(:nth-child(2))
 www.youtube.com##grid-shelf-view-model.ytGridShelfViewModelHostHasBottomButton.ytd-item-section-renderer.ytGridShelfViewModelHost
 www.youtube.com###frosted-glass
 # playists and wathed videos in feed
-www.youtube.com##:xpath('//ytd-rich-grid-renderer//ytd-rich-item-renderer[not(.//*[@class="yt-lockup-metadata-view-model__avatar"])]')
-www.youtube.com##:xpath('//ytd-rich-grid-renderer//ytd-rich-item-renderer[.//yt-thumbnail-overlay-progress-bar-view-model]')
+www.youtube.com##:xpath('//ytd-two-column-browse-results-renderer[@page-subtype="home"]//ytd-rich-item-renderer[not(.//*[@class="ytLockupMetadataViewModelAvatar"])]')
+www.youtube.com##:xpath('//ytd-two-column-browse-results-renderer[@page-subtype="home"]//ytd-rich-item-renderer[.//yt-thumbnail-overlay-progress-bar-view-model]')
 # shorts
 www.youtube.com##ytd-reel-shelf-renderer
 www.youtube.com##ytd-rich-section-renderer
